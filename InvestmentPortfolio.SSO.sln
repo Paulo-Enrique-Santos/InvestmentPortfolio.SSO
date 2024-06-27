@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{3C003B78-04BE-484D-84B2-E94856C6C5BC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentPortfolio.SSO.Presentation", "src\InvestmentPortfolio.SSO.Presentation\InvestmentPortfolio.SSO.Presentation.csproj", "{E611821E-1693-41D5-A427-3695CD3B4124}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0032FF6D-E99A-4DC3-92C5-44F19FE93845} = {0032FF6D-E99A-4DC3-92C5-44F19FE93845}
+		{891CAFC3-E8E7-4A8E-A64D-5316F4F5C8EA} = {891CAFC3-E8E7-4A8E-A64D-5316F4F5C8EA}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{1A53595C-71D4-4C2B-9D2A-671266DA956F}"
 EndProject
@@ -18,10 +22,13 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentPortfolio.SSO.Domain", "src\InvestmentPortfolio.SSO.Domain\InvestmentPortfolio.SSO.Domain.csproj", "{ECD30154-36DE-4659-8327-037830315746}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentPortfolio.SSO.Infrastructure", "src\InvestmentPortfolio.SSO.Infrastructure\InvestmentPortfolio.SSO.Infrastructure.csproj", "{891CAFC3-E8E7-4A8E-A64D-5316F4F5C8EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECD30154-36DE-4659-8327-037830315746} = {ECD30154-36DE-4659-8327-037830315746}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Test", "05 - Test", "{DC47CC9D-615E-4ADE-9314-284C306319C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolio.SSO.Test", "src\InvestmentPortfolio.SSO.Test\InvestmentPortfolio.SSO.Test.csproj", "{CDAEB6DF-94C9-4280-9E03-229F7311EF3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentPortfolio.SSO.Test", "src\InvestmentPortfolio.SSO.Test\InvestmentPortfolio.SSO.Test.csproj", "{CDAEB6DF-94C9-4280-9E03-229F7311EF3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
