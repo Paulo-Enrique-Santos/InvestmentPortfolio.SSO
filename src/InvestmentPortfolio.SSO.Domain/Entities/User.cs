@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace InvestmentPortfolio.SSO.Domain.Entities
+﻿namespace InvestmentPortfolio.SSO.Domain.Entities
 {
     public class User
     {

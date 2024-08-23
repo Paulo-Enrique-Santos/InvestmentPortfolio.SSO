@@ -11,4 +11,10 @@
     <PackageReference Include="MediatR" Version="12.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+	<ProjectReference Include="..\InvestmentPortfolio.SSO.Domain\InvestmentPortfolio.SSO.Domain.csproj" />
+  </ItemGroup>
+	
+	
+
 </Project>

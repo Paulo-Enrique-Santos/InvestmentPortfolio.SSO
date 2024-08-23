@@ -18,6 +18,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 - Infrastructure", "{E7B3B65F-F6C9-4C06-AC26-DB0084C00F30}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentPortfolio.SSO.Application", "src\InvestmentPortfolio.SSO.Application\InvestmentPortfolio.SSO.Application.csproj", "{0032FF6D-E99A-4DC3-92C5-44F19FE93845}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECD30154-36DE-4659-8327-037830315746} = {ECD30154-36DE-4659-8327-037830315746}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentPortfolio.SSO.Domain", "src\InvestmentPortfolio.SSO.Domain\InvestmentPortfolio.SSO.Domain.csproj", "{ECD30154-36DE-4659-8327-037830315746}"
 EndProject
